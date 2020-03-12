@@ -1,4 +1,7 @@
 walk(document.body);
+tippy('.quake_news', {
+	content: "I'm a Tippy tooltip!"
+});
 
 function walk(node) {
 	// I stole this function from here:
