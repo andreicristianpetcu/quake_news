@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Quake News",
+	"version": "1.0",
+	"description": "Gives info about things on the web",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
