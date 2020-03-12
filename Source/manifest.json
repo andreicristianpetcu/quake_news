@@ -12,7 +12,10 @@
 				"dependencies/tippy-bundle.umd.js",
 				"quake_news.js"
 			],
-			"css": ["quake_news.css"],
+			"css": [
+				"dependencies/light.css",
+				"quake_news.css"
+			],
 			"run_at": "document_end"
 		}
 	]

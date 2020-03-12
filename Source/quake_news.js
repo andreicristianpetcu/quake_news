@@ -1,6 +1,11 @@
 walk(document.body);
 tippy('.quake_news', {
-	content: "I'm a Tippy tooltip!"
+	content: `
+	<div><b>Coronavirus</b></div>
+	<div>COVID-19 exte un virus extrem de periculos. Puteti afla mai multe pe pagina <a href="https://ncov2019.live/">ncov2019.live</a></div>`,
+	allowHTML: true,
+	interactive: true,
+	theme: 'light'
 });
 
 function walk(node) {
